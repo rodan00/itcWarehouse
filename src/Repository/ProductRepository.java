@@ -66,30 +66,4 @@ public class ProductRepository {
                 System.out.println("Set sortMethod in User options");
         }
     }
-/*
-    public static void sortedByPrice() {
-        Collections.sort(productRepository.productList, new CompareByPrice());
-        for (Product product : productRepository.productList) {
-            System.out.println(product);
-        }
-    }
-    public static void sortedByName() {
-        Collections.sort(productRepository.productList, new CompareByName());
-        for (Product product : productRepository.productList) {
-            System.out.println(product);
-        }
-    }
-    public static void sortedByCategory(){
-        Collections.sort(productRepository.productList, new CompareByPrice());
-        for(Product product: productRepository.productList){
-            System.out.println(product);
-        }
-    }
-    public static void sortedByDate(){
-        Collections.sort(productRepository.productList, new CompareByPrice());
-        for(Product product: productRepository.productList){
-            System.out.println(product);
-        }
-    }*/
-
 }

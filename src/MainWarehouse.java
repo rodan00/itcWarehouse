@@ -5,13 +5,13 @@ import Gui.GuiMain;
 *
 *  Opis:
 *  Interfejs - konsola
-*  Logowanie - kontrola dostępu do głównego Menu, hasło zakodowane
+*  Logowanie - kontrola dostępu do głównego Menu, hasło zakodowane, własny odczyt i zapis
 *  User: jeden użytkownik (singleton), zmiana login, password, kolor menu, metoda sortowania
 *  Baza i product - jedna baza danych (singleton) dodawanie i usuwanie produktów z bazy,
 *    sortowanie wg metody Usera po cenie, kategorii, nazwie, wyświetlanie, data wpisania
 *    do bazy automatyczna
 *  Kategorie produktu - Wyświetlanie, dodawanie, pilnowanie występowania NOCATEGORY
-*  Warstwa zapisywania i ładowania ustawień Usera, Bazy produktów i listy kategorii do pliku
+*  Warstwa zapisywania i ładowania Bazy produktów i listy kategorii do pliku
 *
 *
 * */

@@ -20,7 +20,6 @@ public class User {
         this.password = password;
         this.color = color;
         this.sortMethod = sortMethod;
-        this.userLoginStatus = userLoginStatus;
     }
 
     public static User getOneUser(){ return oneUser; }
@@ -81,9 +80,6 @@ public class User {
         saveUserData();
     }
 
-
-
-
     public void setUserColor(String color) {
         this.color = color;
         saveUserData(); }
@@ -92,6 +88,7 @@ public class User {
         this.userLoginStatus = userLoginStatus;
         saveUserData();
     }
+
     public void setSortMetod(String sortMethod){
         this.sortMethod=sortMethod;
         System.out.println(this.sortMethod);
